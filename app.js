@@ -5,7 +5,7 @@ let tries = 0;
 
 function guessNum(num) {
 if (tries >5) return alert('Игра окончена');
-
+gi
 if (num === secretNum) {
     alert('Вы угадали!')
     tries = 5;
