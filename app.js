@@ -59,3 +59,15 @@ function check() {
 
     }
 }
+
+
+
+
+
+
+function handleClick() {
+    const list = document.getElementById('todo');
+    const newTodo = list.value;
+    console.log(newTodo)
+
+}
