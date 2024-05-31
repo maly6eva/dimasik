@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Title</title>
 
 </head>
@@ -42,6 +43,20 @@
 </div>
 <ul id="todos"></ul>
 
+<hr>
+
+
+<h2>Image Modal</h2>
+<p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
+<p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
+
+<img id="myImg" src="./images/ptica.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
 
 <script src="app.js"></script>
 </body>

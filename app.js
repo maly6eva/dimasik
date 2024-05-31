@@ -61,13 +61,56 @@ function check() {
 }
 
 
-
-
-
-
+// -----------------------------------------
 function handleClick() {
     const list = document.getElementById('todo');
     const newTodo = list.value;
     console.log(newTodo)
 
 }
+// -----------------------------------------
+//
+let modal = document.getElementById('myModal')
+let img =document.getElementById('myImg')
+let modalImg = document.getElementById('img01')
+let captText = document.getElementById('caption')
+img.onclick = function() {
+    modal.style.display = 'block';
+    modalImg.src = this.src;
+    captText.innerHTML =this.alt;
+}
+
+let span = document.getElementsByClassName('close')[0]
+
+span.onclick = function() {
+    modal.style.display = 'none';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
